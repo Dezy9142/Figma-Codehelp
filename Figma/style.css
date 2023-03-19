@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* font-family: 'Raleway', sans-serif;
+  font-size: 1.6rem; */
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+}
+
+header{
+    display:flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2%;
+padding:2% 7%;
+color:#969696;
+}
+.logo{
+   
+   margin:12px 0px 10px 110px; }
+
+
+ul{
+  display:flex;
+  padding: 0;
+  
+ 
+}
+ul li{
+  list-style-type: none;
+  margin:10px;
+  
+ 
+}
+.nav_links{
+   color:#999da3;
+  
+}
+.team{
+ color: #4e5dc0;
+ 
+}
+ul li a{
+  text-decoration: none;
+   display: flex;
+  flex-direction:row; 
+}
+.btn{
+  padding: 10px;
+  background-color:#4e5dc0;
+  color: white;
+  border-radius: 4px;
+   margin-right:100px; 
+  border:0px;
+
+
+}
+  /*        ------SECTIONS -------*/
+
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  margin:5rem 12rem;
+  
+}
+.section1div {
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  margin: 10px;
+  padding:10px
+  
+}
+.microsoft_img img{
+  height: 90%;
+  width: 100%;
+  border-radius: 15px;
+}
+.head1{
+  display:inline-block;
+  border-bottom: 2px solid #bfbfbf ;
+  padding: 0;
+  margin:4% 0;
+  font-family: 'Roboto', sans-serif;
+  }
+  p{
+   color: #999da3;
+  }
+
+  /*SECTION2  */
+  .microsoft2_img img{
+    height: 80%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .section2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+   margin:5rem 12rem;
+  }
+  .section2div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding:10px;
+  
+  }
+  .para2{
+    display:flex;
+    flex-direction: column;
+    margin-left:3%
+  }
+
+  /* -------FOOTER---------- */
+
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+   margin:5rem 12rem;
+   border-top:2px solid #bfbfbf  ;
+  }
+
+  .row{
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    text-align: left;
+  }
+  .footerul{
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: start;
+  }
+
+  
+
+  footer ul li a{
+    display:block;
+  }
+  h5{
+    margin:20px 0px;
+    color: #4e5dc0;
+  }
+ .icons{
+  display:flex;
+  justify-content: space-between;
+  
+  justify-content: right;
+  margin:40px;
+ }
+  #twit , #fb , #insta{
+    
+    background-color:#4e5dc0 ;
+    border-radius: 50%;
+   padding: 14px;
+    object-fit: cover;
+   
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
